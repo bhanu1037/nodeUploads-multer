@@ -70,7 +70,7 @@ const port=3000;
 
 app.listen(port,()=> console.log("server is up and running"));
 
-//With multer we need to create a storage engine
+//req.file
 // {
 //     fieldname: 'myImage',
 //     originalname: 'labreportnew (1) (2).pdf',
